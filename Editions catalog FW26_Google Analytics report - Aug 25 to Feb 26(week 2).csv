@@ -1,0 +1,34 @@
+# ----------------------------------------,,,,,,,
+# Pages and screens: Page path and screen class,,,,,,,
+# Account: American Library Association,,,,,,,
+# Property: ALA Store - GA4,,,,,,,
+# ----------------------------------------,,,,,,,
+# ,,,,,,,
+# All Users,,,,,,,
+# Start date: 20250921,,,,,,,
+# End date: 20250927,,,,,,,
+Page path and screen class,Views,Active users,Views per active user,Average engagement time per active user,Event count,Key events,Total revenue
+/FW26catalog,1213,932,1.3015021459227467,23.217811158798284,3659,0,0
+/FW26catalog/school-libraries,39,35,1.1142857142857143,36.94285714285714,101,0,0
+/FW26catalog/LIS,32,30,1.0666666666666667,45.666666666666664,89,0,0
+/FW26catalog/gifts,29,29,1,40.37931034482759,85,0,0
+/FW26catalog/cataloging,19,17,1.1176470588235294,54.64705882352941,55,0,0
+/FW26catalog/infolit,19,13,1.4615384615384615,63.84615384615385,49,0,0
+/FW26catalog/progsrvcs,15,13,1.1538461538461537,57.23076923076923,41,0,0
+/FW26catalog/chYA,12,12,1,75.83333333333333,35,0,0
+/FW26catalog/library-staff-empowerment,12,12,1,53.75,34,0,0
+/FW26catalog/technology,12,11,1.0909090909090908,25,32,0,0
+/FW26catalog/mgmt,11,11,1,30.09090909090909,28,0,0
+/FW26catalog/refRA,11,12,0.9166666666666666,16.833333333333332,30,0,0
+/FW26catalog/IF,10,10,1,19.4,33,0,0
+/FW26catalog/cmgmt,9,8,1.125,23.625,23,0,0
+/FW26catalog/arcrim,8,8,1,29.375,23,0,0
+/FW26catalog/mkcom,6,6,1,27,20,0,0
+/FW26catalog/cataloging&ct=ga&cd=CAEYvgEqFDEzNTIzNDk3ODkzNDAyNTc2NTgzMhpiMWUwNDQyYWRjOTFlNmMzOmNvbTplbjpVUw&usg=AOvVaw3PDM6LMzV0dRqwQdpcaDwk,4,4,1,21.5,19,0,0
+/FW26catalog/foundations,4,4,1,27.5,12,0,0
+/FW26catalog/cataloging&source=alertsmail&hl=en&gl=US&msgid=MTM1MjM0OTc4OTM0MDI1NzY1ODM&s=AB2Xq4gGISMZLltDwFxWiuvO6grG0Y6ylIMBwUc,2,2,1,3.5,9,0,0
+/FW26catalog/cataloging&ss=fb&rt=Cataloging,2,2,1,0,8,0,0
+/FW26catalog/cataloging&ss=fb&rt=Cataloging+|+RDA+|+Knowledge+and+Information+Management+-+ALA+Store&cd=KhQxMzUyMzQ5Nzg5MzQwMjU3NjU4MzIaYjFlMDQ0MmFkYzkxZTZjMzpjb206ZW46VVM&ssp=AMJHsmUtbMnTSSEqmQvZrqRlssPJDb6zhw,2,2,1,5,9,0,0
+/FW26catalog/cataloging&ss=tw&rt=Cataloging,2,2,1,9.5,9,0,0
+/FW26catalog/cataloging&ss=tw&rt=Cataloging+|+RDA+|+Knowledge+and+Information+Management+-+ALA+Store&cd=KhQxMzUyMzQ5Nzg5MzQwMjU3NjU4MzIaYjFlMDQ0MmFkYzkxZTZjMzpjb206ZW46VVM&ssp=AMJHsmUtbMnTSSEqmQvZrqRlssPJDb6zhw,2,2,1,5.5,9,0,0
+/fw26,1,1,1,4,3,0,0

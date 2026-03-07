@@ -1,0 +1,27 @@
+# ----------------------------------------,,,,,,,
+# Pages and screens: Page path and screen class,,,,,,,
+# Account: American Library Association,,,,,,,
+# Property: ALA Store - GA4,,,,,,,
+# ----------------------------------------,,,,,,,
+# ,,,,,,,
+# All Users,,,,,,,
+# Start date: 20251026,,,,,,,
+# End date: 20251101,,,,,,,
+Page path and screen class,Views,Active users,Views per active user,Average engagement time per active user,Event count,Key events,Total revenue
+/FW26catalog,3963,1977,2.0045523520485586,29.18259989883662,7491,0,0
+/FW26catalog/progsrvcs,18,4,4.5,37.5,36,0,0
+/FW26catalog/school-libraries,8,6,1.3333333333333333,30.333333333333332,23,0,0
+/FW26catalog/LIS,5,2,2.5,41.5,13,0,0
+/FW26catalog/infolit,5,3,1.6666666666666667,50,14,0,0
+/FW26catalog/mgmt,4,4,1,21.25,10,0,0
+/FW26catalog/cataloging,3,2,1.5,56.5,8,0,0
+/FW26catalog/chYA,3,3,1,60,7,0,0
+/FW26catalog/cmgmt,3,2,1.5,43.5,9,0,0
+/FW26catalog/gifts,3,3,1,27.666666666666668,10,0,0
+/FW26catalog/refRA,3,3,1,26,7,0,0
+/FW26catalog/arcrim,2,1,2,49,5,0,0
+/FW26catalog/foundations,2,2,1,4,6,0,0
+/FW26catalog/library-staff-empowerment,2,2,1,20.5,5,0,0
+/FW26catalog/IF,1,1,1,14,2,0,0
+/FW26catalog/mkcom,1,1,1,14,3,0,0
+/FW26catalog/technology,1,1,1,4,2,0,0

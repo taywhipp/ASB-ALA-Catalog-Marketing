@@ -1,0 +1,27 @@
+# ----------------------------------------,,,,,,,
+# Pages and screens: Page path and screen class,,,,,,,
+# Account: American Library Association,,,,,,,
+# Property: ALA Store - GA4,,,,,,,
+# ----------------------------------------,,,,,,,
+# ,,,,,,,
+# All Users,,,,,,,
+# Start date: 20250914,,,,,,,
+# End date: 20250920,,,,,,,
+Page path and screen class,Views,Active users,Views per active user,Average engagement time per active user,Event count,Key events,Total revenue
+/FW26catalog,1097,881,1.2451759364358683,25.664018161180476,3730,0,0
+/FW26catalog/school-libraries,65,59,1.1016949152542372,48.016949152542374,180,0,0
+/FW26catalog/LIS,50,43,1.1627906976744187,58.46511627906977,144,0,0
+/FW26catalog/gifts,49,43,1.1395348837209303,42.674418604651166,145,0,0
+/FW26catalog/mgmt,41,33,1.2424242424242424,64.27272727272727,108,0,0
+/FW26catalog/chYA,40,37,1.0810810810810811,37.32432432432432,114,0,0
+/FW26catalog/technology,38,31,1.2258064516129032,63.645161290322584,108,0,0
+/FW26catalog/infolit,37,33,1.121212121212121,55,92,0,0
+/FW26catalog/cmgmt,35,29,1.206896551724138,52,88,0,0
+/FW26catalog/cataloging,33,29,1.1379310344827587,42.65517241,99,0,0
+/FW26catalog/library-staff-empowerment,32,29,1.103448275862069,55.310344827586206,86,0,0
+/FW26catalog/refRA,32,27,1.1851851851851851,51.22222222222222,81,0,0
+/FW26catalog/progsrvcs,29,26,1.1153846153846154,62.84615384615385,74,0,0
+/FW26catalog/arcrim,23,22,1.0454545454545454,30.681818181818183,60,0,0
+/FW26catalog/mkcom,23,22,1.0454545454545454,48.40909090909091,61,0,0
+/FW26catalog/IF,19,18,1.0555555555555556,70.16666666666667,53,0,0
+/FW26catalog/foundations,19,18,1.0555555555555556,46.72222222222222,50,0,0

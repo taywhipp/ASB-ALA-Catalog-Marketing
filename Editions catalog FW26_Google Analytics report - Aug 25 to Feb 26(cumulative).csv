@@ -1,0 +1,36 @@
+# ----------------------------------------,,,,,,,
+# Pages and screens: Page path and screen class,,,,,,,
+# Account: American Library Association,,,,,,,
+# Property: ALA Store - GA4,,,,,,,
+# ----------------------------------------,,,,,,,
+# ,,,,,,,
+# All Users,,,,,,,
+# Start date: 20250914,,,,,,,
+# End date: 20260124,,,,,,,
+Page path and screen class,Views,Active users,Views per active user,Average engagement time per active user,Event count,Key events,Total revenue
+/FW26catalog,23311,13111,1.7779726946838532,18.88177865914118,50159,0,0
+/FW26catalog/school-libraries,406,354,1.1468926553672316,25.056497175141242,1299,0,0
+/FW26catalog/cataloging,310,294,1.054421768707483,14.136054421768707,1118,0,0
+/FW26catalog/LIS,299,265,1.1283018867924528,22.743396226415094,1000,0,0
+/FW26catalog/gifts,277,254,1.0905511811023623,28.929133858267715,942,0,0
+/FW26catalog/chYA,271,246,1.1016260162601625,18.959349593495936,907,0,0
+/FW26catalog/progsrvcs,271,225,1.2044444444444444,21.995555555555555,875,0,0
+/FW26catalog/infolit,245,228,1.0745614035087718,17.903508771929825,839,0,0
+/FW26catalog/mgmt,232,212,1.0943396226415094,18.78301886792453,770,0,0
+/FW26catalog/refRA,231,217,1.064516129032258,13.880184331797235,795,0,0
+/FW26catalog/cmgmt,228,207,1.1014492753623188,13.956521739130435,769,0,0
+/FW26catalog/technology,225,210,1.0714285714285714,15.58095238095238,788,0,0
+/FW26catalog/library-staff-empowerment,219,205,1.0682926829268293,15.751219512195123,756,0,0
+/FW26catalog/IF,206,199,1.035175879396985,18.185929648241206,745,0,0
+/FW26catalog/arcrim,206,199,1.035175879396985,7.547738693467337,739,0,0
+/FW26catalog/mkcom,194,189,1.0264550264550265,10.544973544973544,693,0,0
+/FW26catalog/foundations,182,176,1.0340909090909092,7.903409090909091,660,0,0
+/FW26catalog/cataloging&ct=ga&cd=CAEYvgEqFDEzNTIzNDk3ODkzNDAyNTc2NTgzMhpiMWUwNDQyYWRjOTFlNmMzOmNvbTplbjpVUw&usg=AOvVaw3PDM6LMzV0dRqwQdpcaDwk,4,4,1,21.5,19,0,0
+/FW26catalog/cataloging&source=alertsmail&hl=en&gl=US&msgid=MTM1MjM0OTc4OTM0MDI1NzY1ODM&s=AB2Xq4gGISMZLltDwFxWiuvO6grG0Y6ylIMBwUc,2,2,1,3.5,9,0,0
+/FW26catalog/cataloging&ss=fb&rt=Cataloging,2,2,1,0,8,0,0
+/FW26catalog/cataloging&ss=fb&rt=Cataloging+|+RDA+|+Knowledge+and+Information+Management+-+ALA+Store&cd=KhQxMzUyMzQ5Nzg5MzQwMjU3NjU4MzIaYjFlMDQ0MmFkYzkxZTZjMzpjb206ZW46VVM&ssp=AMJHsmUtbMnTSSEqmQvZrqRlssPJDb6zhw,2,2,1,5,9,0,0
+/FW26catalog/cataloging&ss=tw&rt=Cataloging,2,2,1,9.5,9,0,0
+/FW26catalog/cataloging&ss=tw&rt=Cataloging+|+RDA+|+Knowledge+and+Information+Management+-+ALA+Store&cd=KhQxMzUyMzQ5Nzg5MzQwMjU3NjU4MzIaYjFlMDQ0MmFkYzkxZTZjMzpjb206ZW46VVM&ssp=AMJHsmUtbMnTSSEqmQvZrqRlssPJDb6zhw,2,2,1,5.5,9,0,0
+/fw26,1,1,1,4,3,0,0
+/proxy/aHR0cHM6Ly9hbGFzdG9yZS5hbGEub3Jn/FW26catalog/chYA,1,1,1,3,4,0,0
+/proxy/aHR0cHM6Ly9hbGFzdG9yZS5hbGEub3Jn/FW26catalog/refRA,1,1,1,10,4,0,0

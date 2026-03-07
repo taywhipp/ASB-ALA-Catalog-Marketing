@@ -1,0 +1,28 @@
+# ----------------------------------------,,,,,,,
+# Pages and screens: Page path and screen class,,,,,,,
+# Account: American Library Association,,,,,,,
+# Property: ALA Store - GA4,,,,,,,
+# ----------------------------------------,,,,,,,
+# ,,,,,,,
+# All Users,,,,,,,
+# Start date: 20250601,,,,,,,
+# End date: 20250607,,,,,,,
+Page path and screen class,Views,Active users,Views per active user,Average engagement time per active user,Event count,Key events,Total revenue
+/SS25catalog,291,267,1.0898876404494382,12.318352059925093,1006,0,0
+/SS25catalog/school-libraries,21,16,1.3125,25.875,56,0,0
+/SS25catalog/chYA,11,11,1,33.09090909090909,33,0,0
+/SS25catalog/progsrvcs,8,7,1.1428571428571428,30,16,0,0
+/SS25catalog/LIS,7,7,1,50.714285714285715,20,0,0
+/SS25catalog/gifts,7,7,1,22.714285714285715,19,0,0
+/SS25catalog/mkcom,6,6,1,34.833333333333336,14,0,0
+/SS25catalog/staff,6,6,1,54.5,16,0,0
+/SS25catalog/technology,6,6,1,25,16,0,0
+/SS25catalog/arcrim,5,5,1,40.4,13,0,0
+/SS25catalog/foundations,5,3,1.6666666666666667,46.333333333333336,13,0,0
+/SS25catalog/infolit,5,5,1,87,15,0,0
+/SS25catalog.,4,3,1.3333333333333333,20.333333333333332,15,0,0
+/SS25catalog/cmgmt,4,3,1.3333333333333333,23,14,0,0
+/SS25catalog/mgmt,4,4,1,46.25,11,0,0
+/SS25catalog/refRA,4,4,1,68.25,11,0,0
+/SS25catalog/IF,3,3,1,11.333333333333334,7,0,0
+/SS25catalog/cataloging,2,2,1,46.5,6,0,0
