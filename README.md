@@ -1,6 +1,200 @@
-{"cells":[{"block_group":"cbc332ca75fe48f998485edd6ee43d9a","cell_type":"markdown","execution_count":null,"metadata":{"deepnote_app_block_visible":true,"deepnote_app_block_group_id":null,"deepnote_app_block_order":0,"cell_id":"51835932bdfb4fe4af647f7a170bc75f","deepnote_block_group":"cbc332ca75fe48f998485edd6ee43d9a","deepnote_cell_type":"markdown","deepnote_sorting_key":"0","deepnote_source":"# ALA Editions & ACRL Digital Catalog Marketing Analysis\n**UMSI Alternative Spring Break Project — ALA Marketing Department**\n\nThis project analyzes four datasets to produce observations and e-blast strategy recommendations for:\n1. The Spring/Summer 2026 ALA Editions catalog launch\n2. A unified Fall/Winter 2027 catalog integrating ALA Editions + ACRL titles\n\n---\n\n## Project Overview\nThis analysis combines Google Analytics traffic data with e-blast marketing performance metrics to identify patterns in user engagement, content effectiveness, and optimal marketing strategies for ALA and ACRL digital catalogs. The project explores how catalog attributes (body text length, subject line characteristics, send timing, etc.) correlate with open rates, click rates, and unsubscribe behavior.\n\n[Link to Deepnote Environment to run code](https://deepnote.com/workspace/quworkspace-66ecfcba-a684-413d-a464-124bf06d729f/project/AASL-ALA-Marketing-1-3b33a8df-90ac-4d91-8716-a62b1fa405f5/notebook/READMEmd-faf5ea15de8645d9bcb88b9825ef7819?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=3b33a8df-90ac-4d91-8716-a62b1fa405f5)\n\n---\n\n## Datasets\n\n| Dataset | Source | Description |\n|---|---|---|\n| `editions_ss25_google` | Google Analytics (CSV) | Weekly traffic: SS25 ALA Editions catalog |\n| `editions_fw26_google` | Google Analytics (CSV) | Weekly traffic: FW26 ALA Editions catalog |\n| `editions_ala_stats` | Informz (via PDF) | E-blast performance: ALA Editions catalog promos |\n| `editions_eblasts` | Informz (via PDF) | E-blast metadata: ALA Editions campaigns |\n| `acrl_google` | Google Analytics (CSV) | Traffic: ACRL Publications catalog |\n| `acrl_indiv_emails` | Informz (via PDF) | E-blast performance: Individual ACRL book promos |\n| `acrl_syllabus` | Informz (via PDF) | E-blast performance: ACRL Syllabus newsletters |\n\n**Note:** Due to PDF conversion errors, the PDF source files may show overlapping code and images. The best way to view these notebooks and visualizations is to run them in a code development environment.\n\n---\n\n## Notebooks\n\n### Main Analysis Notebooks\n1. **Notebook #0: Column Definitions**\n   - Reference guide for all dataset columns and variables\n   - Data schema and terminology\n\n2. **Notebook #2a: ALA Exploratory Data Analysis**\n   - ALA Editions traffic and engagement analysis\n   - Email body length vs. engagement correlation\n   - TF-IDF text analysis of email body content\n   - Open/click rate distributions\n\n3. **Notebook #2b: ACRL Exploratory Data Analysis**\n   - ACRL Publications catalog traffic analysis\n   - Individual book promo performance\n   - Syllabus newsletter engagement patterns\n   - TF-IDF text analysis of ACRL body content\n\n4. **Notebook #2c: ALA & ACRL Comparisons**\n   - Side-by-side comparison of both organizations\n   - Traffic volume comparisons\n   - Content strategy differences\n   - Audience engagement patterns\n\n5. **Notebook #4: Recommendations**\n   - Strategic insights and recommendations\n   - ACRL individual book promo analysis\n   - Optimal send timing and content strategies\n   - Unified catalog recommendations\n\n---\n\n## Key Findings\n\n### ALA Email Strategy\n- Emphasizes promotional language (\"book\", \"new\", \"free\", \"library\")\n- Highlights practical benefits and accessibility\n- Consumer-oriented approach targeting broad audiences\n- Email body length shows weak correlation with open rates\n\n### ACRL Email Strategy\n- Centers on academic and research-oriented terms (\"research\", \"library\", \"book\", \"information\")\n- Includes professional development keywords (\"conference\", \"session\", \"professional\")\n- Targets specialized academic audiences\n- Distinct content focus from ALA's marketing approach\n\n### Strategic Implications\n- Both organizations use \"book\" and \"library\" as core terms but diverge in secondary messaging\n- Content strategy should align with target audience expectations and organizational mission\n- Timing and frequency of sends impact overall engagement\n- Day-of-week effects on open and click rates vary by audience\n\n---\n\n## File Structure\n\n```\nALA Marketing Project/\n├── README.md                           # This file\n├── Notebook #0_ Column Definitions.ipynb\n├── Notebook #2a_ ALA EDA.ipynb\n├── Notebook #2b_ ACRL EDA.ipynb\n├── Notebook #2c_ ALA & ACRL Comparisons.ipynb\n├── Notebook #4_ Recommendations.ipynb\n└── Cleaned Datasets/\n    ├── acrl_all_emails\n    ├── acrl_google\n    ├── acrl_indiv_emails\n    ├── acrl_syllabus\n    ├── editions_ala_eblasts.parquet\n    ├── editions_ala_fw26_google.parquet\n    ├── editions_ala_ss25_google.parquet\n    └── editions_ala_stats_eblasts\n```\n\n---\n\n## Technical Requirements\n\n### Python Libraries\n- `pandas` — Data manipulation and analysis\n- `numpy` — Numerical operations\n- `plotly` — Interactive visualizations\n- `matplotlib` & `seaborn` — Static plotting\n- `scikit-learn` — TF-IDF vectorization and text analysis\n- `statsmodels` — LOWESS smoothing for trend analysis\n\n### Environment Setup\n```bash\n# Create virtual environment\npython3 -m venv .venv\n\n# Activate virtual environment\nsource .venv/bin/activate\n\n# Install dependencies\npip install pandas numpy plotly matplotlib seaborn scikit-learn statsmodels\n```\n\n### Running the Notebooks\n1. Ensure the virtual environment is activated\n2. Open any notebook in a Jupyter-compatible environment (JupyterLab, VS Code, etc.)\n3. Run cells sequentially from top to bottom\n4. Visualizations will render inline\n\n---\n\n## Visualization Elements\n\nAll notebooks employ consistent styling:\n- **Colors:**\n  - ALA Blue: `#003F72`\n  - ALA Red: `#C8102E`\n  - ACRL Teal: `#00857C`\n  - Accent Gold: `#F5A623`\n  - Light Gray Background: `#F4F4F4`\n\n- **Chart Types:**\n  - Time-series line plots with LOWESS trends\n  - Scatter plots with trendlines\n  - Horizontal bar charts for TF-IDF analysis\n  - Boxplots for engagement distributions\n  - Subplot comparisons for side-by-side analysis\n\n---\n\n## Contact & Documentation\n\nFor questions or additional analysis requests, contact Luciana Qu or Taylor Whipple at the University of Michigan via email.\n\n---\n\n## Project Status\n\n✅ **Complete** — All notebooks have been analyzed and key findings documented. Ready for strategic implementation.\n\nLast Updated: March 2026\n"},"source":"# ALA Editions & ACRL Digital Catalog Marketing Analysis\n**UMSI Alternative Spring Break Project — ALA Marketing Department**\n\nThis project analyzes four datasets to produce observations and e-blast strategy recommendations for:\n1. The Spring/Summer 2026 ALA Editions catalog launch\n2. A unified Fall/Winter 2027 catalog integrating ALA Editions + ACRL titles\n\n---\n\n## Project Overview\nThis analysis combines Google Analytics traffic data with e-blast marketing performance metrics to identify patterns in user engagement, content effectiveness, and optimal marketing strategies for ALA and ACRL digital catalogs. The project explores how catalog attributes (body text length, subject line characteristics, send timing, etc.) correlate with open rates, click rates, and unsubscribe behavior.\n\n[Link to Deepnote Environment to run code](https://deepnote.com/workspace/quworkspace-66ecfcba-a684-413d-a464-124bf06d729f/project/AASL-ALA-Marketing-1-3b33a8df-90ac-4d91-8716-a62b1fa405f5/notebook/READMEmd-faf5ea15de8645d9bcb88b9825ef7819?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=3b33a8df-90ac-4d91-8716-a62b1fa405f5)\n\n---\n\n## Datasets\n\n| Dataset | Source | Description |\n|---|---|---|\n| `editions_ss25_google` | Google Analytics (CSV) | Weekly traffic: SS25 ALA Editions catalog |\n| `editions_fw26_google` | Google Analytics (CSV) | Weekly traffic: FW26 ALA Editions catalog |\n| `editions_ala_stats` | Informz (via PDF) | E-blast performance: ALA Editions catalog promos |\n| `editions_eblasts` | Informz (via PDF) | E-blast metadata: ALA Editions campaigns |\n| `acrl_google` | Google Analytics (CSV) | Traffic: ACRL Publications catalog |\n| `acrl_indiv_emails` | Informz (via PDF) | E-blast performance: Individual ACRL book promos |\n| `acrl_syllabus` | Informz (via PDF) | E-blast performance: ACRL Syllabus newsletters |\n\n**Note:** Due to PDF conversion errors, the PDF source files may show overlapping code and images. The best way to view these notebooks and visualizations is to run them in a code development environment.\n\n---\n\n## Notebooks\n\n### Main Analysis Notebooks\n1. **Notebook #0: Column Definitions**\n   - Reference guide for all dataset columns and variables\n   - Data schema and terminology\n\n2. **Notebook #2a: ALA Exploratory Data Analysis**\n   - ALA Editions traffic and engagement analysis\n   - Email body length vs. engagement correlation\n   - TF-IDF text analysis of email body content\n   - Open/click rate distributions\n\n3. **Notebook #2b: ACRL Exploratory Data Analysis**\n   - ACRL Publications catalog traffic analysis\n   - Individual book promo performance\n   - Syllabus newsletter engagement patterns\n   - TF-IDF text analysis of ACRL body content\n\n4. **Notebook #2c: ALA & ACRL Comparisons**\n   - Side-by-side comparison of both organizations\n   - Traffic volume comparisons\n   - Content strategy differences\n   - Audience engagement patterns\n\n5. **Notebook #4: Recommendations**\n   - Strategic insights and recommendations\n   - ACRL individual book promo analysis\n   - Optimal send timing and content strategies\n   - Unified catalog recommendations\n\n---\n\n## Key Findings\n\n### ALA Email Strategy\n- Emphasizes promotional language (\"book\", \"new\", \"free\", \"library\")\n- Highlights practical benefits and accessibility\n- Consumer-oriented approach targeting broad audiences\n- Email body length shows weak correlation with open rates\n\n### ACRL Email Strategy\n- Centers on academic and research-oriented terms (\"research\", \"library\", \"book\", \"information\")\n- Includes professional development keywords (\"conference\", \"session\", \"professional\")\n- Targets specialized academic audiences\n- Distinct content focus from ALA's marketing approach\n\n### Strategic Implications\n- Both organizations use \"book\" and \"library\" as core terms but diverge in secondary messaging\n- Content strategy should align with target audience expectations and organizational mission\n- Timing and frequency of sends impact overall engagement\n- Day-of-week effects on open and click rates vary by audience\n\n---\n\n## File Structure\n\n```\nALA Marketing Project/\n├── README.md                           # This file\n├── Notebook #0_ Column Definitions.ipynb\n├── Notebook #2a_ ALA EDA.ipynb\n├── Notebook #2b_ ACRL EDA.ipynb\n├── Notebook #2c_ ALA & ACRL Comparisons.ipynb\n├── Notebook #4_ Recommendations.ipynb\n└── Cleaned Datasets/\n    ├── acrl_all_emails\n    ├── acrl_google\n    ├── acrl_indiv_emails\n    ├── acrl_syllabus\n    ├── editions_ala_eblasts.parquet\n    ├── editions_ala_fw26_google.parquet\n    ├── editions_ala_ss25_google.parquet\n    └── editions_ala_stats_eblasts\n```\n\n---\n\n## Technical Requirements\n\n### Python Libraries\n- `pandas` — Data manipulation and analysis\n- `numpy` — Numerical operations\n- `plotly` — Interactive visualizations\n- `matplotlib` & `seaborn` — Static plotting\n- `scikit-learn` — TF-IDF vectorization and text analysis\n- `statsmodels` — LOWESS smoothing for trend analysis\n\n### Environment Setup\n```bash\n# Create virtual environment\npython3 -m venv .venv\n\n# Activate virtual environment\nsource .venv/bin/activate\n\n# Install dependencies\npip install pandas numpy plotly matplotlib seaborn scikit-learn statsmodels\n```\n\n### Running the Notebooks\n1. Ensure the virtual environment is activated\n2. Open any notebook in a Jupyter-compatible environment (JupyterLab, VS Code, etc.)\n3. Run cells sequentially from top to bottom\n4. Visualizations will render inline\n\n---\n\n## Visualization Elements\n\nAll notebooks employ consistent styling:\n- **Colors:**\n  - ALA Blue: `#003F72`\n  - ALA Red: `#C8102E`\n  - ACRL Teal: `#00857C`\n  - Accent Gold: `#F5A623`\n  - Light Gray Background: `#F4F4F4`\n\n- **Chart Types:**\n  - Time-series line plots with LOWESS trends\n  - Scatter plots with trendlines\n  - Horizontal bar charts for TF-IDF analysis\n  - Boxplots for engagement distributions\n  - Subplot comparisons for side-by-side analysis\n\n---\n\n## Contact & Documentation\n\nFor questions or additional analysis requests, contact Luciana Qu or Taylor Whipple at the University of Michigan via email.\n\n---\n\n## Project Status\n\n✅ **Complete** — All notebooks have been analyzed and key findings documented. Ready for strategic implementation.\n\nLast Updated: March 2026\n"}],
-        "metadata": {"deepnote_notebook_id":"faf5ea15de8645d9bcb88b9825ef7819"},
-        "nbformat": "4",
-        "nbformat_minor": "0",
-        "version": "0"
-      }
+# ALA Editions & ACRL Digital Catalog Marketing Analysis
+
+> **Kernel:** Unknown | **Cells:** 0 code, 1 markdown | **Generated by:** [Jupy Tools](https://jupytools.com)
+
+## Table of Contents
+
+- [ALA Editions & ACRL Digital Catalog Marketing Analysis](#ala-editions-acrl-digital-catalog-marketing-analysis)
+  - [Project Overview](#project-overview)
+  - [Datasets](#datasets)
+  - [Notebooks](#notebooks)
+    - [Main Analysis Notebooks](#main-analysis-notebooks)
+  - [Key Findings](#key-findings)
+    - [ALA Email Strategy](#ala-email-strategy)
+    - [ACRL Email Strategy](#acrl-email-strategy)
+    - [Strategic Implications](#strategic-implications)
+  - [File Structure](#file-structure)
+  - [Technical Requirements](#technical-requirements)
+    - [Python Libraries](#python-libraries)
+    - [Environment Setup](#environment-setup)
+- [Create virtual environment](#create-virtual-environment)
+- [Activate virtual environment](#activate-virtual-environment)
+- [Install dependencies](#install-dependencies)
+    - [Running the Notebooks](#running-the-notebooks)
+  - [Visualization Elements](#visualization-elements)
+  - [Contact & Documentation](#contact-documentation)
+  - [Project Status](#project-status)
+
+---
+
+# ALA Editions & ACRL Digital Catalog Marketing Analysis
+**UMSI Alternative Spring Break Project — ALA Marketing Department**
+
+This project analyzes four datasets to produce observations and e-blast strategy recommendations for:
+1. The Spring/Summer 2026 ALA Editions catalog launch
+2. A unified Fall/Winter 2027 catalog integrating ALA Editions + ACRL titles
+
+---
+
+## Project Overview
+This analysis combines Google Analytics traffic data with e-blast marketing performance metrics to identify patterns in user engagement, content effectiveness, and optimal marketing strategies for ALA and ACRL digital catalogs. The project explores how catalog attributes (body text length, subject line characteristics, send timing, etc.) correlate with open rates, click rates, and unsubscribe behavior.
+
+[Link to Deepnote Environment to run code](https://deepnote.com/workspace/quworkspace-66ecfcba-a684-413d-a464-124bf06d729f/project/AASL-ALA-Marketing-1-3b33a8df-90ac-4d91-8716-a62b1fa405f5/notebook/READMEmd-faf5ea15de8645d9bcb88b9825ef7819?utm_source=share-modal&utm_medium=product-shared-content&utm_campaign=notebook&utm_content=3b33a8df-90ac-4d91-8716-a62b1fa405f5)
+
+---
+
+## Datasets
+
+| Dataset | Source | Description |
+|---|---|---|
+| `editions_ss25_google` | Google Analytics (CSV) | Weekly traffic: SS25 ALA Editions catalog |
+| `editions_fw26_google` | Google Analytics (CSV) | Weekly traffic: FW26 ALA Editions catalog |
+| `editions_ala_stats` | Informz (via PDF) | E-blast performance: ALA Editions catalog promos |
+| `editions_eblasts` | Informz (via PDF) | E-blast metadata: ALA Editions campaigns |
+| `acrl_google` | Google Analytics (CSV) | Traffic: ACRL Publications catalog |
+| `acrl_indiv_emails` | Informz (via PDF) | E-blast performance: Individual ACRL book promos |
+| `acrl_syllabus` | Informz (via PDF) | E-blast performance: ACRL Syllabus newsletters |
+
+**Note:** Due to PDF conversion errors, the PDF source files may show overlapping code and images. The best way to view these notebooks and visualizations is to run them in a code development environment.
+
+---
+
+## Notebooks
+
+### Main Analysis Notebooks
+1. **Notebook #0: Column Definitions**
+   - Reference guide for all dataset columns and variables
+   - Data schema and terminology
+
+2. **Notebook #2a: ALA Exploratory Data Analysis**
+   - ALA Editions traffic and engagement analysis
+   - Email body length vs. engagement correlation
+   - TF-IDF text analysis of email body content
+   - Open/click rate distributions
+
+3. **Notebook #2b: ACRL Exploratory Data Analysis**
+   - ACRL Publications catalog traffic analysis
+   - Individual book promo performance
+   - Syllabus newsletter engagement patterns
+   - TF-IDF text analysis of ACRL body content
+
+4. **Notebook #2c: ALA & ACRL Comparisons**
+   - Side-by-side comparison of both organizations
+   - Traffic volume comparisons
+   - Content strategy differences
+   - Audience engagement patterns
+
+5. **Notebook #4: Recommendations**
+   - Strategic insights and recommendations
+   - ACRL individual book promo analysis
+   - Optimal send timing and content strategies
+   - Unified catalog recommendations
+
+---
+
+## Key Findings
+
+### ALA Email Strategy
+- Emphasizes promotional language ("book", "new", "free", "library")
+- Highlights practical benefits and accessibility
+- Consumer-oriented approach targeting broad audiences
+- Email body length shows weak correlation with open rates
+
+### ACRL Email Strategy
+- Centers on academic and research-oriented terms ("research", "library", "book", "information")
+- Includes professional development keywords ("conference", "session", "professional")
+- Targets specialized academic audiences
+- Distinct content focus from ALA's marketing approach
+
+### Strategic Implications
+- Both organizations use "book" and "library" as core terms but diverge in secondary messaging
+- Content strategy should align with target audience expectations and organizational mission
+- Timing and frequency of sends impact overall engagement
+- Day-of-week effects on open and click rates vary by audience
+
+---
+
+## File Structure
+
+```
+ALA Marketing Project/
+├── README.md                           # This file
+├── Notebook #0_ Column Definitions.ipynb
+├── Notebook #2a_ ALA EDA.ipynb
+├── Notebook #2b_ ACRL EDA.ipynb
+├── Notebook #2c_ ALA & ACRL Comparisons.ipynb
+├── Notebook #4_ Recommendations.ipynb
+└── Cleaned Datasets/
+    ├── acrl_all_emails
+    ├── acrl_google
+    ├── acrl_indiv_emails
+    ├── acrl_syllabus
+    ├── editions_ala_eblasts.parquet
+    ├── editions_ala_fw26_google.parquet
+    ├── editions_ala_ss25_google.parquet
+    └── editions_ala_stats_eblasts
+```
+
+---
+
+## Technical Requirements
+
+### Python Libraries
+- `pandas` — Data manipulation and analysis
+- `numpy` — Numerical operations
+- `plotly` — Interactive visualizations
+- `matplotlib` & `seaborn` — Static plotting
+- `scikit-learn` — TF-IDF vectorization and text analysis
+- `statsmodels` — LOWESS smoothing for trend analysis
+
+### Environment Setup
+```bash
+# Create virtual environment
+python3 -m venv .venv
+
+# Activate virtual environment
+source .venv/bin/activate
+
+# Install dependencies
+pip install pandas numpy plotly matplotlib seaborn scikit-learn statsmodels
+```
+
+### Running the Notebooks
+1. Ensure the virtual environment is activated
+2. Open any notebook in a Jupyter-compatible environment (JupyterLab, VS Code, etc.)
+3. Run cells sequentially from top to bottom
+4. Visualizations will render inline
+
+---
+
+## Visualization Elements
+
+All notebooks employ consistent styling:
+- **Colors:**
+  - ALA Blue: `#003F72`
+  - ALA Red: `#C8102E`
+  - ACRL Teal: `#00857C`
+  - Accent Gold: `#F5A623`
+  - Light Gray Background: `#F4F4F4`
+
+- **Chart Types:**
+  - Time-series line plots with LOWESS trends
+  - Scatter plots with trendlines
+  - Horizontal bar charts for TF-IDF analysis
+  - Boxplots for engagement distributions
+  - Subplot comparisons for side-by-side analysis
+
+---
+
+## Contact & Documentation
+
+For questions or additional analysis requests, contact Luciana Qu or Taylor Whipple at the University of Michigan via email.
+
+---
+
+## Project Status
+
+✅ **Complete** — All notebooks have been analyzed and key findings documented. Ready for strategic implementation.
+
+Last Updated: March 2026
+
